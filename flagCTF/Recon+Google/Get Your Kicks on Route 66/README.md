@@ -1,6 +1,3 @@
-## Get Your Kicks on Route 66
-
-```
 # flagCTF – Get Your Kicks on Route 66
 
 * **Category:** Reconnaissance, Google, and Open Source Intelligence
@@ -33,5 +30,4 @@ Only the last 3 have flag in the actual city name, so the answer is "3;Flagler B
 
 ```
 3;Flagler Beach
-```
 ```
