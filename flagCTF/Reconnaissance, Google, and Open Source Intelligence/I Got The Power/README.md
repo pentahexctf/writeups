@@ -1,4 +1,4 @@
-# flagCTF – I Got the Power
+# flagCTF – I Got the Power!
 
 * **Category:** Reconnaissance, Google, and Open Source Intelligence
 * **Points:** 5
