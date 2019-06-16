@@ -46,6 +46,7 @@
 ## Solution
 
 All we have to do is iterate through the letters in each word. If we encounter the letter "m", we trigger a flag. If, after that, we encounter the letter "e", then we break and increment a counter by one. Otherwise, we move on to the next word.
+Not so proud of my solution but it works leave me alone
 
 ```
 4;957;245;0;440

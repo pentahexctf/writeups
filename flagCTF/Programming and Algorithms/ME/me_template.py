@@ -1,3 +1,5 @@
+# Author: Drakon
+
 def solve(fname):
     fin = open(fname, 'r')
     counter = 0 # Initialize the counter that's eventually the output

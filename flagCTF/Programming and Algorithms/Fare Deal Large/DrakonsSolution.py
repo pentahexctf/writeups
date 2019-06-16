@@ -1,3 +1,5 @@
+# Author: Drakon
+
 import math
 
 finalAnswer = []
