@@ -11,7 +11,8 @@
 
 ## Solution
 
-CENSORED
+Judging from the title, the flag is probably stored as a comment. We view source, and sure enough, there's a comment with the flag on the webpage.
+
 ```
-CENSORED
+Th3r3I$M0reToTh1sThanMeetsTh3Eye
 ```
