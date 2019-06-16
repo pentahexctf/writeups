@@ -1,4 +1,4 @@
-# flagCTF – Get Your Kicks on Route 66
+# flagCTF – Fare Deal (Large)
 
 * **Category:** Programming and Algorithms
 * **Points:** 75
