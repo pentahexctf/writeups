@@ -1,4 +1,3 @@
-
 # flagCTF – Reverse the Search
 
 * **Category:** Quantum Computing

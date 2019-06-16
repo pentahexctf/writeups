@@ -13,7 +13,7 @@
 
 ## Solution
 
-Upon loading the page, we're presented with two options: "No" and "Definitely No". Both options just return "Alright, I won't give you the flag. If you insist."
+Upon loading the page, we're presented with two options: "No" and "Definitely No". Both options just return ```Alright, I won't give you the flag. If you insist.```
 When we view the source for the page, we find that both of the options have an assigned value of 0. Inspect element, and replace one of the values with 1.
 
 

@@ -1,4 +1,4 @@
-# flagCTF – Quantum Leap
+# flagCTF – A Quantum Leap
 
 * **Category:** Quantum Computing
 * **Points:** 50
