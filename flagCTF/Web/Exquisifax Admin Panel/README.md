@@ -15,9 +15,12 @@ The login page doesn't appear to be vulnerable to any injections, and there's no
 
 We head back to the home page, and try putting in "color" for the color parameter, "number" for the number parameter, and "shape" for the shape parameter.
 
-We get back the following error: ```Warning: readfile(color/shape/number): failed to open stream: No such file or directory in /var/www/html/display2.php on line 3```
+We get back the following error: 
+```
+Warning: readfile(color/shape/number): failed to open stream: No such file or directory in /var/www/html/display2.php on line 3
+```
 
-This means that display2.php utilizes the readfile function, which, if unsanitized, would let us perform LFI. It's important to note that the server retrieves images in the order color, shape, number but the text boxes are in the order color, number, shape.
+This means that display2.php utilizes the readfile function, which, if unsanitized, would let us perform LFI. It's important to note that the server retrieves images with a path in the order color, shape, number but the text boxes are in the order color, number, shape.
 
 Let's try to grab the source for display2.php by setting color to ".", number to "display2.php", and shape to "."
 
