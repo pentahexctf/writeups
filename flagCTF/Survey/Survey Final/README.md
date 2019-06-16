@@ -1,4 +1,4 @@
-# Survey - Final
+# flagCTF - Survey - Final
 
 * **Category:** Survey
 * **Points:** 150

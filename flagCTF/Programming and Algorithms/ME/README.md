@@ -1,7 +1,7 @@
-# Survey - Final
+# flagCTF - ME!
 
 * **Category:** Survey
-* **Points:** 150
+* **Points:** 45
 
 ## Challenge
 

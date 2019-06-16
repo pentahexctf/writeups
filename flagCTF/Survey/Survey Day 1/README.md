@@ -1,4 +1,4 @@
-# Survey - Day 1
+# flagCTF - Survey - Day 1
 
 * **Category:** Survey
 * **Points:** 100
