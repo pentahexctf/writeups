@@ -19,7 +19,9 @@ We download the file and check it's contents:
 
 This looks suspiciously like hex, so we decode with hex.
 
-Judging from the padding on the next string, we can guess it was encoded with base32. And then hex. And then base64. And then base32. And then base32 again. And then hex. And then base64.
+Judging from the padding on the next string, we can guess it was encoded with base32.
+The next string is composed of digits, and the letters A-F so we assume it's hex again.
+The padding on the next string suggests it is either base64 or base32 (it was base64). We use similar reasoning to determine the resulting string is base32. And then base32 again. And then hex. And then base64.
 
 ```
 Let us encode just one more time, and then we will stop.
