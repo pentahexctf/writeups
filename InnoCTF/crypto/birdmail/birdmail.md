@@ -7,18 +7,18 @@
 
 > We don't have chall text but something about RFC 1149
 
-![](InnoCTF/images/cryptobirds.png)
+![](./cryptobirds.png?raw=true)
 
 
 ## Solution
 
 After noticing the repetition of some birds, we concluded it was some substitution cipher. In order to solve, just go down the alphabet for every new bird.
 
-![](InnoCTF/crypto/birdmail/Untitled.png)
+![](./Untitled.png?raw=true)
 
 Then simply plug it into a substitution decoder and brute force the flag
 
-![](InnoCTF/crypto/birdmail/unknown.png)
+![](./unknown.png?raw=true)
 
 ```
 InnoCTF{only_birds_everywhere}
