@@ -7,7 +7,7 @@
 
 > We don't have chall text
 
-![](writeups/InnoCTF/crypto/lines/lines.png)
+![](./lines.png)
 ## Solution
 
 We find a picture with nodes affiliated with letters, numbers, and an underscore. Connecting the nodes are lines that eventually stop at two nodes. Manually tracing the lines both ways, we find:
