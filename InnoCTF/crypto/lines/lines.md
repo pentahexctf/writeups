@@ -1,4 +1,4 @@
-# CTF NAME – CHALLENGE NAME
+# InnoCTF - Lines
 
 * **Category:** Crypto
 * **Points:** 422
@@ -6,7 +6,8 @@
 ## Challenge
 
 > We don't have chall text
-![](InnoCTF\crypto\lines\lines.png)
+
+![](writeups/InnoCTF/crypto/lines/lines.png)
 ## Solution
 
 We find a picture with nodes affiliated with letters, numbers, and an underscore. Connecting the nodes are lines that eventually stop at two nodes. Manually tracing the lines both ways, we find:

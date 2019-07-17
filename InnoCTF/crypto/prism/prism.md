@@ -5,23 +5,23 @@
 
 ## Challenge
 
-> We don't have the chall text but something about if only you had a prism
+> Do you have a prism to take a closer look?
 
-![](InnoCTF\misc\prism\images\qrcode.png)
+![](writeups/InnoCTF/misc/prism/images/qrcode.png)
 
 ## Solution
 
 At first look, since it's a photo we looked through metadata and steganography but came up with nothing. The name of the challenge got me thinking about separating the red, green, and blue. Another thing I took note of was a odd string when scanning the QR code. Thus, I separated the three colors using photoshop and got three different QR codes. The flag is retrieved by concatenating the three outputs.
 Red only:
-![](InnoCTF\misc\prism\images\redonly.png)
+![](writeups/InnoCTF/misc/prism/images/redonly.png)
 InnoCTF{gZmLFg
 
 Green only:
-![](InnoCTF\misc\prism\images\greenonly.png)
+![](writeups/InnoCTF/misc/prism/images/greenonly.png)
 pflkF5hbwBlA0h
 
 Blue only:
-![](InnoCTF\misc\prism\images\blueonly.png)
+![](writeups/InnoCTF/misc/prism/images/blueonly.png)
 myPUkPPcugKhY}
 
 ```

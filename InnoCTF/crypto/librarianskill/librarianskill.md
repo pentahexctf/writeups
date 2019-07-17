@@ -8,7 +8,7 @@
 > Read between lines!
 ls.zip containing 1984.txt, Animal Farm.txt, The Catcher in the Rye.txt, and the cipher
 
-![](InnoCTF/crypto/librarianskill/ls/cipher.jpg)
+![](writeups/InnoCTF/crypto/librarianskill/ls/cipher.jpg)
 
 
 ## Solution
