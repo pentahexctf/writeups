@@ -7,7 +7,7 @@
 
 > We don't have chall text but something about RFC 1149
 
-![](InnoCTF/crypto/birdmail/cryptobirds.png)
+![](InnoCTF/images/cryptobirds.png)
 
 
 ## Solution
