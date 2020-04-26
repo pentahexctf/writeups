@@ -24,7 +24,7 @@ img = Image.open(img)
 
 w,h = img.size
 
-#convert image to RGBCYPWBkG
+#convert image to RGBCYPWBlGr
 colormarker = {
 	"R":(255,0,0),
 	"G":(0,255,0),
