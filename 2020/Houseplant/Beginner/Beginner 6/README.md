@@ -21,7 +21,7 @@
 
 I'm going to do an actually honest writeup (with no sarcasm this time) because I'm bored and writeups are boring.
 
-We immediately notices that all the numbers are within the range 9-26. 26 is coincidentally the number of letters in the alphabet. Our immediate thought is A1Z26, also known as "letter numbers".
+We immediately notice that all the numbers are within the range 9-26. 26 is coincidentally the number of letters in the alphabet. Our immediate thought is A1Z26, also known as "letter numbers".
 
 
 ```
