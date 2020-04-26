@@ -9,6 +9,7 @@
 > 
 > Dev: jammy
 
+(client.apk was attached)
 
 ## Solution
 

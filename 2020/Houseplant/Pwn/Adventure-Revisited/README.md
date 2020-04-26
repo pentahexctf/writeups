@@ -12,6 +12,8 @@
 > 
 > Creator: Jess
 
+(hint.7z was attached - it was actually a base64 encoded image)
+
 ## Solution
 
 Adventure-Revisited was a pwn challenge in this CTF, but I thought it was more of a misc challenge.
