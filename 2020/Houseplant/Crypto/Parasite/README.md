@@ -49,6 +49,7 @@ There are two issues with this. First of all, `GEUK` should have been transliter
 The second issue, obviously, is that the words aren't actually...words. My Korean friend read the above output and immediately identified and translated the characters. 
 
 Unfortunately, "Korean friend" doesn't appear to be an easy-to-download package. As an alternative, we use a Korean keyboard to combine the characters in the output (Google translate, your phone, most things work).
+
 ```
 희 망 은 진 정 한 기 생 충 입 니 다
 ```
@@ -58,5 +59,4 @@ This translates to "Hope is a true parasite," which gives us our flag
 
 ```
 rtcp{hope_is_a_true_parasite}
-```
 ```
