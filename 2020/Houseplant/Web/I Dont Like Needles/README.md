@@ -21,7 +21,7 @@ Since we can see the exact SQL statement, writing an injection is extremely easy
 
 We can inject `lmaomeme` in for the user and `' or username='flagman69' and 'a'='a` for the password. This makes the statement effectively ``SELECT * FROM users WHERE username='lmaomeme' AND password='' or username='flagman69' and 'a'='a'``. This will only select one user - the `flagman69` user.
 
-**Note:** If you're *not* lazy like me and you want to write an actually good statement, you can do the following UNION injection: `' AND 1=2 UNION SELECT * FROM users WHERE username ='flagman69' AND '1'='1`
+**Note:** If you're *not* lazy like me and you want to write an actually good statement, you can do the following UNION injection: `' AND 1=2 UNION SELECT * FROM users WHERE username ='flagman69' AND '1'='1`.
 
 
 ```
