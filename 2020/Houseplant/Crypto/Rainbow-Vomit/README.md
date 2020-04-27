@@ -10,6 +10,8 @@
 >
 >Dev: Tom
 
+(chall.png was attached)
+
 ## Solution
 
 This challenge made me somewhat sad, since it started out with very few solves, but the hints ended up revealing exactly what the solution was. The hint tells us "Hues of hex" and "This type of encoding was invented by Josh Cramer." Google searches reveal an encoding system known as hexahue, so we just apply this to the image from the challenge, after cropping out the whitespace on the borders of the image. 
