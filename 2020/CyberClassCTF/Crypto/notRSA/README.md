@@ -19,6 +19,7 @@ So, we can do some rabin magic.
 
 *jason please explain*
 
+Just refer to the official writeup to be honest. I bumbled my way through this.
 
 ```
 cctf{rabin_but_with_extra_steps}
