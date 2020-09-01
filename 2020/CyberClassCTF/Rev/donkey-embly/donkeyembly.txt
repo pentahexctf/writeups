@@ -1,0 +1,10 @@
+<+0>:	push   ebp
+<+1>:	mov    ebp,esp
+<+3>:	cmp    DWORD PTR [ebp+0x8],0x4
+<+7>:	jle    0x8048415 <donkeyembly+15>
+<+9>:	add    DWORD PTR [ebp+0x8],0x1
+<+13>:	jmp    0x8048419 <donkeyembly+19>
+<+15>:	sub    DWORD PTR [ebp+0x8],0x1
+<+19>:	mov    eax,DWORD PTR [ebp+0x8]
+<+22>:	pop    ebp
+<+23>:	ret 

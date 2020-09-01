@@ -1,0 +1,20 @@
+donkierembly:
+<+0>:	push   ebp
+<+1>:	mov    ebp,esp
+<+3>:	sub    esp,0x10
+<+6>:	sub    DWORD PTR [ebp+0x8],0x19
+<+10>:	mov    DWORD PTR [ebp-0x4],0x0
+<+17>:	jmp    0x8048464 <donkierembly+29>
+<+19>:	mov    eax,DWORD PTR [ebp-0x4]
+<+22>:	xor    DWORD PTR [ebp+0x8],eax
+<+25>:	add    DWORD PTR [ebp-0x4],0x1
+<+29>:	cmp    DWORD PTR [ebp-0x4],0x4
+<+33>:	jle    0x804845a <donkierembly+19>
+<+35>:	cmp    DWORD PTR [ebp+0x8],0x16
+<+39>:	jg     0x804847a <donkierembly+51>
+<+41>:	mov    eax,DWORD PTR [ebp+0x8]
+<+44>:	imul   eax,DWORD PTR [ebp+0x8]
+<+48>:	mov    DWORD PTR [ebp+0x8],eax
+<+51>:	mov    eax,DWORD PTR [ebp+0x8]
+<+54>:	leave  
+<+55>:	ret
